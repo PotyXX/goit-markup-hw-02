@@ -1,0 +1,179 @@
+:root {
+    --secondery-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-text-color: #757575;
+    --primary-white-color: #FFFFFF; 
+}
+body {
+    font-size: 14px;
+    font-family: 'roboto', sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.logo-up {
+    color: #000000;
+}
+.logo-down {
+    color: #FFFFFF;
+}
+.header-link,
+.header-mail,
+.header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondery-text-color);
+}
+.header-mail,
+.header-tel {
+    color: var(--primary-text-color);
+}
+.hero {
+    background-color: #2F303A;
+}
+.hero-text{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+.hero-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.benefits-title, .about-title, .team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondery-text-color);
+}
+.benefis-title- {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondery-text-color);
+}
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.team {
+    background-color: #F5F4FA;
+}
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondery-text-color);
+}
+.team-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.footer {
+    background-color: #2F303A;
+}
+.footer-map {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+}
+.footer-mail,
+.footer-tel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail:hover, .footer-tel:hover, .header-mail:hover, .header-tel:hover, .header-link:hover, .footer-mail:focus, .footer-tel:focus, .header-mail:focus, .header-tel:focus, .header-link:focus {
+    color: var(--accent-color)
+}
+
+.choice-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondery-text-color);
+    background-color: #F5F4FA;
+}
+.choice-btn:hover,
+.choice-btn:focus,
+.choice-btn.current {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color)
+}
+.portfolio-name {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondery-text-color);
+}
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondery-text-color);
+}
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.current {
+    color: var(--accent-color);
+}
